@@ -14,10 +14,16 @@ namespace Tutorial
     public partial class Form1 : Form
     {
         product pro = new product();
+
+        public static Form1 instance1;
+        public Label user;
+        public DataGridView Dts;
+
         public Form1()
         {
             InitializeComponent();
-            
+            instance1 = this;
+            user = uname;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -34,9 +40,34 @@ namespace Tutorial
                 pro.id = idnum.Text;
                 pro.date = dpicker.Value.ToString();
                 pro.count = Int32.Parse(cnt.Text);
+                pro.isavalable=available.Checked;
+                pro.Male = gen.Checked;
+                pro.female = gen2.Checked;
+                RadioButton chk =Gender.Controls.OfType<RadioButton>()
+                    .FirstOrDefault(r => r.Checked == true);
+                MessageBox.Show(chk.Name );
+
+                foreach (var item in availables.CheckedItems)
+                {
+                    MessageBox.Show(item.ToString());
+                }
                 pro.save();
+                dataGridView1.DataSource = pro.products;
                 pro.showAll();
+
+                objName.Clear();
+                invnum.Clear();
+                idnum.Clear(); 
+                cnt.Clear();
+                available.Checked = false;
+                gen.Checked = false;   
+                gen2.Checked = false;
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.ExitThread();
         }
     }
 }
