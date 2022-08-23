@@ -1,0 +1,29 @@
+C:\Users\User\Documents\C# projects\Tutorial\bin\Debug\Tutorial.exe.config
+C:\Users\User\Documents\C# projects\Tutorial\bin\Debug\Tutorial.exe
+C:\Users\User\Documents\C# projects\Tutorial\bin\Debug\Tutorial.pdb
+C:\Users\User\Documents\C# projects\Tutorial\obj\Debug\Tutorial.csproj.AssemblyReference.cache
+C:\Users\User\Documents\C# projects\Tutorial\obj\Debug\Tutorial.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Documents\C# projects\Tutorial\obj\Debug\Tutorial.Form1.resources
+C:\Users\User\Documents\C# projects\Tutorial\obj\Debug\Tutorial.Properties.Resources.resources
+C:\Users\User\Documents\C# projects\Tutorial\obj\Debug\Tutorial.csproj.GenerateResource.cache
+C:\Users\User\Documents\C# projects\Tutorial\obj\Debug\Tutorial.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C# projects\Tutorial\obj\Debug\Tutorial.exe
+C:\Users\User\Documents\C# projects\Tutorial\obj\Debug\Tutorial.pdb
+C:\Users\User\Documents\C# projects\Exercise 3 and 4\bin\Debug\Tutorial.exe.config
+C:\Users\User\Documents\C# projects\Exercise 3 and 4\bin\Debug\Tutorial.exe
+C:\Users\User\Documents\C# projects\Exercise 3 and 4\bin\Debug\Tutorial.pdb
+C:\Users\User\Documents\C# projects\Exercise 3 and 4\obj\Debug\Tutorial.csproj.AssemblyReference.cache
+C:\Users\User\Documents\C# projects\Exercise 3 and 4\obj\Debug\Tutorial.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Documents\C# projects\Exercise 3 and 4\obj\Debug\Tutorial.Form1.resources
+C:\Users\User\Documents\C# projects\Exercise 3 and 4\obj\Debug\Tutorial.Properties.Resources.resources
+C:\Users\User\Documents\C# projects\Exercise 3 and 4\obj\Debug\Tutorial.csproj.GenerateResource.cache
+C:\Users\User\Documents\C# projects\Exercise 3 and 4\obj\Debug\Tutorial.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C# projects\Exercise 3 and 4\obj\Debug\Tutorial.exe
+C:\Users\User\Documents\C# projects\Exercise 3 and 4\obj\Debug\Tutorial.pdb
+C:\Users\User\Documents\C# projects\Exercise 3 and 4\obj\Debug\Tutorial.Form2.resources
+C:\Users\User\Documents\C# projects\Exercise 3 and 4\obj\Debug\Tutorial.mainContainer.resources
+C:\Users\User\Documents\C# projects\Exercise 3 and 4\obj\Debug\Tutorial.Form3.resources
+C:\Users\User\Documents\C# projects\Exercise 3 and 4\obj\Debug\Tutorial.Form4.resources
+C:\Users\User\Documents\C# projects\Exercise 3 and 4\obj\Debug\Tutorial.Form5.resources
+C:\Users\User\Documents\C# projects\Exercise 3 and 4\obj\Debug\Tutorial.Form6.resources
+C:\Users\User\Documents\C# projects\Exercise 3 and 4\obj\Debug\Tutorial.productcard.resources

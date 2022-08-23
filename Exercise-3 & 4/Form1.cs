@@ -13,55 +13,61 @@ namespace Tutorial
 {
     public partial class Form1 : Form
     {
-        product pro = new product();
 
         public static Form1 instance1;
-        public Label user;
+        public string user;
         public DataGridView Dts;
-
+        public int i =0;
         public Form1()
         {
             InitializeComponent();
             instance1 = this;
-            user = uname;
+            uname.Text = Form2.user;
+            //MessageBox.Show(Form2.user);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             if (idnum.Text == "")
-                MessageBox.Show("id number can't be empty");
-            else if (string.IsNullOrEmpty(objName.Text))
-                errorProvider1.SetError(objName, "Name is Required");
+                MessageBox.Show("Product Name can't be empty");
+            else if (string.IsNullOrEmpty(invnum.Text))
+                errorProvider1.SetError(invnum, "inventory number is Required");
             else
             {
                 errorProvider1.Clear();
-                pro.ItemName = objName.Text;
-                pro.inventorynumber =invnum.Text;
-                pro.id = idnum.Text;
-                pro.date = dpicker.Value.ToString();
-                pro.count = Int32.Parse(cnt.Text);
-                pro.isavalable=available.Checked;
-                pro.Male = gen.Checked;
-                pro.female = gen2.Checked;
-                RadioButton chk =Gender.Controls.OfType<RadioButton>()
-                    .FirstOrDefault(r => r.Checked == true);
-                MessageBox.Show(chk.Name );
 
-                foreach (var item in availables.CheckedItems)
-                {
-                    MessageBox.Show(item.ToString());
-                }
+                product pro = new product();
+
+                pro.Product_Discription = objName.Text;
+
+                pro.inventorynumber =invnum.Text;
+
+                pro.ProductName = idnum.Text;
+
+                pro.date = dpicker.Value.ToString();
+
+                pro.Amount = int.Parse(cnt.Text);
+
+                pro.price = PriceBox.Text;
+
+                pro.Available= Available.Checked;
+
+                pro.Not_Available = NotAvailable.Checked;
+
+                RadioButton chk =Gender.Controls.OfType<RadioButton>()
+
+                    .FirstOrDefault(r => r.Checked == true);
+                //MessageBox.Show(chk.Name );
+
                 pro.save();
-                dataGridView1.DataSource = pro.products;
-                pro.showAll();
 
                 objName.Clear();
                 invnum.Clear();
                 idnum.Clear(); 
                 cnt.Clear();
-                available.Checked = false;
-                gen.Checked = false;   
-                gen2.Checked = false;
+                PriceBox.Clear();
+                Available.Checked = false;   
+                NotAvailable.Checked = false;
             }
         }
 

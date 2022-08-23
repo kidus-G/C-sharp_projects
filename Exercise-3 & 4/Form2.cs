@@ -13,6 +13,7 @@ namespace Tutorial
     public partial class Form2 : Form
     {
         public static Form2 instance;
+        public static string user;
 
         public Form2()
         {
@@ -25,10 +26,9 @@ namespace Tutorial
         {
             if (textBox1.Text == "admin" && textBox2.Text == "admin")
             {
-                new Form1().Show();
-
-                Form1.instance1.user.Text = this.textBox1.Text;
-
+                new mainContainer().Show();
+                user = this.textBox1.Text;
+                //MessageBox.Show(Form2.user);
                 this.Hide();
             }
             else
