@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -16,7 +17,8 @@ namespace Tutorial
         public Form5()
         {
             InitializeComponent();
-            dataGridView1.DataSource = product.products;
+
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
